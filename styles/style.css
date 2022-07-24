@@ -1,8 +1,26 @@
 /* font  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 /* common css */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+/* common css end */
+
+/* heaber section start */
+#main-header{
+    background-color: #e6e6e6;
+}
+.logo,
+.logo:hover{
+    color: #292727;
+}
+#navbarNav ul li a{
+    color: #292727;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-left: 10px;
 }
